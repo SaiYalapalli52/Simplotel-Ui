@@ -1,0 +1,148 @@
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+}
+
+.navbar {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  background-color: #fff;
+  padding: 10px 20px;
+}
+
+.logo img {
+  height: 50px;
+}
+
+.nav-items {
+  display: flex;
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+.nav-items li {
+  margin-right: 20px;
+}
+
+.nav-items li:last-child {
+  margin-right: 0;
+}
+
+.nav-items li a {
+  text-decoration: none;
+  color: black;
+  font-weight: bold;
+}
+
+.social-icons {
+  display: flex;
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+.social-icons li {
+  margin-left: 10px;
+}
+
+.social-icons li:first-child {
+  margin-left: 0;
+}
+
+.social-icons li a img {
+  height: 30px;
+}
+
+.page-image img {
+  position: relative;
+  display: block;
+  height: 500px;
+  width: 65%;
+  margin: auto;
+}
+
+.overlay-button {
+  position: absolute;
+  top: 50%;
+  left: 26%;
+  width: 12%;
+  font-weight: 900;
+  transform: translate(-50%, -50%);
+  padding: 10px 20px;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  background: linear-gradient(to right, #060606, #aaaaaa);
+}
+
+.container-paragraph {
+  display: flex;
+  width: 65%;
+  margin-left: 17%;
+  padding: 0px 9px;
+}
+
+.paragraph {
+  flex: 1; /* This will make both paragraphs take equal width */
+  background-color: lightgray;
+  padding: 10px;
+}
+
+.paragraph:last-child {
+  margin-right: 0; /* Remove margin from the last paragraph */
+}
+
+.color-back {
+  background-color: #fff;
+}
+
+.heading-image {
+  margin-left: 21%;
+  padding-left: 6px;
+}
+
+.image-container {
+  display: flex;
+  background-color: #fff;
+  width: 50%;
+  margin-left: 17%;
+  padding: 20px 86px;
+}
+
+.image {
+  position: relative;
+  flex: 1;
+  margin-right: 20px; /* Adjust margin as needed */
+}
+
+.image:last-child {
+  margin-right: 0; /* Remove margin from last image */
+}
+
+.image img {
+  width: 100%;
+  height: auto;
+}
+
+.overlay {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  padding: 20px;
+  box-sizing: border-box; /* Include padding in the width */
+  color: #fff;
+  visibility: hidden;
+  opacity: 0;
+  transition: opacity 0.3s ease-in-out;
+}
+
+.button-item {
+  background-color: black;
+  color: #fff;
+  width: 40%;
+  padding: 6px;
+}
